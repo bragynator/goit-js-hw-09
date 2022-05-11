@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://bragynator.github.io/goit-js-hw-09",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel --no-hmr src/index.html",
     "build": "parcel build src/index.html --public-url /goit-js-hw-09/"
   },
   "repository": {
