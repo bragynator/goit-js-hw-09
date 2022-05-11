@@ -5,8 +5,8 @@
   "main": "index.js",
   "homepage": "https://bragynator.github.io/goit-js-hw-09",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "notiflix": "^3.2.5"
   }
 }
